@@ -18,7 +18,9 @@ A Claude Code plugin that makes narrated videos end to end: brief → facts → 
 
 Then run `/video-studio <what the video is about>`. Updates: `/plugin marketplace update video-studio`.
 
-Works on **Windows, macOS and Linux**. Requirements: `ffmpeg` + `ffprobe` on PATH, Python ≥ 3.9, internet for the one-time voice install. Optional: Node ≥ 18 (Android and web recording, HTML slides) + `npm install` in `skills/video-studio/scripts` (web recording, HTML slides; downloads Chromium); `adb` (Android recording); another TTS engine (see below). Install commands per OS: `skills/video-studio/reference/setup.md`.
+Works on **Windows, macOS and Linux**. Requirements: `ffmpeg` + `ffprobe` on PATH, Python ≥ 3.9, internet for the one-time voice install. Optional: Node ≥ 18 (Android and web recording, HTML slides), `adb` (Android recording), another TTS engine (see below).
+
+**Step-by-step guide per OS (tools, first video, update, uninstall, other AI agents): [INSTALL.md](INSTALL.md).**
 
 ## Voices
 
