@@ -1,0 +1,72 @@
+{
+  "voice": {
+    "adapter": "vieneu",
+    "name": "Xuân Vĩnh",
+    "mode": "v3turbo",
+    "temperature": 0.7
+  },
+  "brand": {
+    "name": ""
+  },
+  "canvas": {
+    "width": 1080,
+    "height": 1920,
+    "frameRate": 30,
+    "backgroundColor": "#000000"
+  },
+  "subtitles": {
+    "mode": "band",
+    "bandHeight": 380,
+    "bandColor": "#111827",
+    "fontName": "Be Vietnam Pro",
+    "fontSize": 64,
+    "textColor": "#FFFFFF",
+    "sideMargin": 48,
+    "bottomMargin": 96,
+    "maxCharactersPerLine": 30,
+    "maxLines": 2,
+    "tailSeconds": 0.8
+  },
+  "cards": {
+    "backgroundColor": "#1F2937",
+    "textColor": "#FFFFFF",
+    "titleFontSize": 120,
+    "subtitleFontSize": 64,
+    "leadInSeconds": 0.4,
+    "lineGapSeconds": 0.35,
+    "paddingSeconds": 0.8,
+    "sectionCards": true,
+    "sectionCardSeconds": 2.0
+  },
+  "recording": {
+    "crop": { "top": 0, "bottom": 0, "left": 0, "right": 0 },
+    "fastForward": {
+      "speed": 2.5,
+      "minimumSeconds": 2.0,
+      "marginAfterNarration": 1.0,
+      "marginBeforeStep": 0.6
+    }
+  },
+  "slides": {
+    "leadInSeconds": 0.3,
+    "gapSeconds": 0.5
+  },
+  "audio": {
+    "sampleRate": 48000,
+    "loudnessTarget": -16,
+    "truePeak": -1.5
+  },
+  "tts": {
+    "slowSpeechRatio": 0.6,
+    "fastSpeechRatio": 1.6,
+    "similarityDropBelowMedian": 0.2,
+    "transcribe": {
+      "model": "small",
+      "language": "vi",
+      "minimumMatch": 0.6
+    }
+  },
+  "poster": {
+    "atSeconds": 1.0
+  }
+}

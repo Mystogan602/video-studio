@@ -1,0 +1,47 @@
+{
+  "title": "Feature demo",
+  "output": "feature-demo.mp4",
+  "canvas": { "width": 1080, "height": 2700 },
+  "subtitles": { "mode": "band", "bandHeight": 380 },
+  "recording": { "crop": { "top": 80 } },
+  "clips": [
+    {
+      "id": "00",
+      "kind": "card",
+      "title": "Mở bài",
+      "steps": [
+        { "text": "Em chào mọi người." },
+        { "text": "Trong sprint này, em đã làm hai phần chính: tìm quán theo món và lưu quán yêu thích." },
+        { "text": "Bây giờ em sẽ demo lần lượt từng phần trên app." }
+      ]
+    },
+    {
+      "id": "01",
+      "kind": "recording",
+      "title": "Tìm quán theo món",
+      "steps": [
+        { "text": "Đầu tiên là phần tìm quán. Trước đây trang chủ chỉ lọc theo khoảng cách, nên em đã thêm lọc theo món." },
+        { "text": "Ở trang chủ, em bấm chip Phở, danh sách giờ chỉ còn quán phở." },
+        { "text": "Em kéo thanh bán kính để chọn từ một đến hai mươi ki lô mét.", "subtitle": "Em kéo thanh bán kính để chọn từ 1 đến 20 km." }
+      ]
+    },
+    {
+      "id": "02",
+      "kind": "slides",
+      "title": "Kết quả",
+      "steps": [
+        { "text": "Sau một tuần, số lượt tìm theo món đã tăng gấp đôi.", "html": "slides/result.html" }
+      ]
+    },
+    {
+      "id": "99",
+      "kind": "card",
+      "title": "Kết bài",
+      "card": { "subtitle": "Cảm ơn mọi người đã theo dõi" },
+      "steps": [
+        { "text": "Đó là toàn bộ những gì em đã làm trong sprint này." },
+        { "text": "Em cảm ơn mọi người đã theo dõi. Mọi người có góp ý gì thì cứ nhắn em nhé." }
+      ]
+    }
+  ]
+}

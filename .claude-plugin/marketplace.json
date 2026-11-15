@@ -1,0 +1,13 @@
+{
+  "name": "video-studio",
+  "owner": {
+    "name": "Mystogan602"
+  },
+  "plugins": [
+    {
+      "name": "video-studio",
+      "source": "./",
+      "description": "Narrated video workflow: script, TTS voice-over, footage, ffmpeg compose, QA."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Same bytes on every OS: LF in the repo and in checkouts (scripts, JSON, Markdown).
+* text=auto eol=lf
+*.ttf binary
+*.png binary
+*.mp4 binary
+*.wav binary

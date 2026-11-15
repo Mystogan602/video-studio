@@ -1,0 +1,5 @@
+{
+  "brand": { "name": "My App" },
+  "voice": { "adapter": "vieneu", "name": "Xuân Vĩnh" },
+  "cards": { "backgroundColor": "#1F2937" }
+}

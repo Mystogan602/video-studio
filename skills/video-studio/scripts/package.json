@@ -1,0 +1,12 @@
+{
+  "name": "video-studio-scripts",
+  "private": true,
+  "type": "module",
+  "description": "Playwright helpers of the video-studio skill (web recording, HTML slides). Install once with npm install in this folder; it also downloads Chromium.",
+  "scripts": {
+    "postinstall": "playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "1.58.2"
+  }
+}

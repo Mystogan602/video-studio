@@ -1,0 +1,6 @@
+node_modules/
+__pycache__/
+*.pyc
+# Never commit a user's workspace data if someone tests inside the repo.
+.video-studio/
+videos/
