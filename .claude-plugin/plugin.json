@@ -2,5 +2,8 @@
   "name": "video-studio",
   "version": "0.1.0",
   "description": "Narrated video workflow for Claude Code: brief, script, approval gates, TTS voice-over, footage (screen recording, slides, rendered, cards), ffmpeg compose with subtitles, QA and a learnings loop. Works for product demos, explainers, vertical shorts and reports.",
+  "author": { "name": "Mystogan602", "url": "https://github.com/Mystogan602" },
+  "homepage": "https://github.com/Mystogan602/video-studio",
+  "license": "MIT",
   "keywords": ["video", "voice-over", "tts", "demo", "ffmpeg", "subtitles", "screen-recording"]
 }

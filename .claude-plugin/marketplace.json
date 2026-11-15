@@ -1,5 +1,6 @@
 {
   "name": "video-studio",
+  "description": "Narrated video workflow for Claude Code: script, TTS voice-over, screen recording, ffmpeg compose, QA.",
   "owner": {
     "name": "Mystogan602"
   },
