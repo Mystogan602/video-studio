@@ -2,8 +2,6 @@
 
 A Claude Code plugin that makes narrated videos end to end: brief → facts → script (approval gate) → TTS voice-over (listening gate) → footage → ffmpeg compose with subtitles → QA by eye → hand-over → learnings.
 
-It started from two private workflows (a YouTube explainer pipeline and a sprint-demo pipeline recorded on a real phone) and keeps what they had in common. Anything tied to one tool sits behind an adapter you can swap.
-
 | Video type | Footage | Subtitles |
 |---|---|---|
 | Product / sprint / feature demo | Android screen recording (adb) or web recording (Playwright), driven line by line by the narration | band under the screen, or overlay |
